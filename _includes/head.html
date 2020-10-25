@@ -17,6 +17,7 @@ L::::::::::::::::::::::Li::::::ib::::::::::::::::b  e::::::::eeeeeeee   r:::::r 
 L::::::::::::::::::::::Li::::::ib:::::::::::::::b    ee:::::::::::::e   r:::::r         X:::::X       X:::::X  uu::::::::uu:::u  ee:::::::::::::e  
 LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr         XXXXXXX       XXXXXXX    uuuuuuuu  uuuu    eeeeeeeeeeeeee                                                                                                                                                                                                                                                                                                   
 !-->
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>{{ page.title }} - {{ site.title }}</title>
@@ -38,16 +39,22 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
   <meta name="description" content="nothing is more practicla than a good theory" />
   <link href="https://cdn.bootcss.com/highlight.js/9.10.0/styles/xcode.min.css" rel="stylesheet">
   <link href="{{ site.url }}/style/style-liberxue.css" rel="stylesheet">
+
 {% if page.date %}
+
   <meta content='{{ site.url }}{{ page.url }}' property='og:url' />
   <meta content="{{ site.url }}{{ page.url }}|{{ page.content | strip_html | strip_newlines | truncate: 120 }}" property='og:description' />
   <meta content="article" property="og:type" />
+
 {% else %}
+
   <meta content='{{ site.url }}' property='og:url' />
   <meta content="{{ site.description }}" property='og:description' />
   <meta content="blog" property="og:type" />
+
 {% endif %}
 {% if site.google_analytics %}
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -56,8 +63,10 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
   ga('create', '{{ site.google_analytics }}', 'auto');
   ga('send', 'pageview');
 </script>
+
 {% endif %}
 {% if site.facebook_appid %}
+
 <meta content="{{ site.facebook_appid }}" property="fb:app_id" />
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -67,3 +76,5 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 {% endif %}
+
+
