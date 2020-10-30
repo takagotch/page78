@@ -12,11 +12,11 @@
             <span>&laquo;</span>
         {% else %}
             {% if paginator.previous_page == 1 %}
-               
-            <a href="/liberxuepage/?liberxue">
+            <!-- /liberxuepage/?liberxue -->   
+            <a href="/">
             {% else %}
-                   
-            <a href="/liberxuepage{{ paginator.previous_page }}?liberxue" >
+            <!-- /liberxuepage{{ paginator.previous_page }}?liberxue -->       
+            <a href="/{{ paginator.previous_page }}/" >
             {% endif %}
                 <span>&laquo;</span>
             </a>
