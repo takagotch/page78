@@ -12,8 +12,10 @@
             <span>&laquo;</span>
         {% else %}
             {% if paginator.previous_page == 1 %}
+               
             <a href="/liberxuepage/?liberxue">
             {% else %}
+                   
             <a href="/liberxuepage{{ paginator.previous_page }}?liberxue" >
             {% endif %}
                 <span>&laquo;</span>
@@ -27,8 +29,10 @@
         <li>
             {% endif %}
             {% if i == 1 %}
+               
             <a href="/?liberxue" data-hover="{{i}}">{{i}}</a>
             {% else %}
+               
             <a href="/liberxuepage{{i}}?liberxue" data-hover="{{i}}">{{i}}</a>
             {% endif %}
         </li>
@@ -37,6 +41,7 @@
             {% if paginator.page == paginator.total_pages %}
             <span>&raquo;</span>
             {% else %}
+               
             <a href="/liberxuepage{{ paginator.next_page }}?liberxue" data-hover="&raquo;">
                 <span>&raquo;</span>
             </a>
