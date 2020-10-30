@@ -187,8 +187,9 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
  
 你可以通过以下几种方式联系到我。
 
-* [提交Issues](https://github.com/Liberxue/liberxue.github.io/issues)
+* [提交Issues](https://github.com/takagotch/takagotch.github.io/issues)
  
-* [发邮件](mailto:liberxue@gmail.com)
+* [メール|发邮件](mailto:liberxue@gmail.com)
  
-* [Twitter](https://twitter.com/liberxue).
+* [Twitter](https://twitter.com/takagotch).
+
