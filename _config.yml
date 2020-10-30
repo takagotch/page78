@@ -1,7 +1,7 @@
 # ----------- CONFIGURABLE START -----------
 title:            "TKVTV | Activate-d LLC"
 description:      "アクティベイティッドのカタログギフト。"
-url:              https://takagotch.github.io/          #https://liberxue.github.io # 域名
+url:              "https://takagotch.github.io/"          #https://liberxue.github.io # 域名
 baseurl:          "/page78"
 signoff:          "TKVTV" # Your name
 facebook_appid:   832884267479134     #liberxue
